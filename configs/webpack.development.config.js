@@ -13,6 +13,9 @@ module.exports = env => ({
           'style-loader',
           {
             loader: 'css-loader',
+            options: {
+              modules: true,
+            },
           },
           'postcss-loader',
         ],

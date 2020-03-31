@@ -1,0 +1,15 @@
+.title {
+  color: green;
+}
+
+.box {
+  height: 50px;
+  background-color: yellow;
+
+  .title {
+    color: red;
+  }
+  .text {
+    color: blue;
+  }
+}
